@@ -14,8 +14,6 @@
     font-weight: bold;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-
-
 }
 
 center li {
@@ -51,7 +49,8 @@ input {
 }
 
 .valuesDesign ul li{
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 button {
@@ -62,4 +61,12 @@ input {
     width: 200px;
     height: 25px;
     border-radius: 5px;
+    font-size: 20px;
+}
+
+label {
+    color: coral;
+    border-bottom-style: groove;
+    border-bottom-width: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 1px 0px;    
 }

@@ -13,19 +13,22 @@
         <div class="titleApp">Calculator</div>
         <div class="center">
             <div class="valuesDesign">                
-                <ul>                
-                    <li><input type="text" value="" name="valuePrime" placeholder="Valor Prime"/></li>
-                    <li><input type="text" value="" name="valueSecond" placeholder="Valor Second"/></li>
-                    <li><input type="text" value="" name="valueResult" placeholder="Valor Result" disabled/></li>
+                <ul>     
+                    <label>Valor 01</label>           
+                    <li><input type="number" value="" id="valuePrime" placeholder="Valor Primeiro "/></li>
+                    <label>Valor 02</label>  
+                    <li><input type="number" value="" id="valueSecond" placeholder="Valor Segundo "/></li>
+                    <label>Resultado</label>  
+                    <li><input type="text" value="" id="valueResult" placeholder="Valor Resultado " disabled/></li>
                 </ul> 
             </div> 
             <div class="operation">
                 <ul>                
-                    <li><button>+ (Somar)</button></li>
-                    <li><button>- (Diminuir)</button></li>
-                    <li><button>* (Multiplicar)</button></li>
-                    <li><button>/ (Dividir)</button></li>
-                    <li><button>Limpar</button></li>
+                    <li><button onclick="capValuesSum()">+ (Somar)</button></li>
+                    <li><button onclick="capValuesDecrease()">- (Diminuir)</button></li>
+                    <li><button onclick="capValuesMultiply()">* (Multiplicar)</button></li>
+                    <li><button onclick="capValuesShare()">/ (Dividir)</button></li>
+                    <li><button onclick="cleanInput()">Limpar</button></li>
                     
                 </ul>                 
             </div>
